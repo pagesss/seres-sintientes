@@ -203,12 +203,10 @@ main{
 }
 
 .compatibility-alert {
-    display: none; /* Oculta la alerta por defecto */
-    background-color: #f44336;
-    color: white;
+    background-color: #ff0000;
+    color: #ffffff;
     padding: 10px;
     text-align: center;
-    font-weight: bold;
   }
 
 

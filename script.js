@@ -1,5 +1,5 @@
 function showCompatibilityAlert() {
-    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     
     if (isMobile) {
       var alertElement = document.createElement('div');
@@ -8,3 +8,7 @@ function showCompatibilityAlert() {
       document.body.insertBefore(alertElement, document.body.firstChild);
     }
   }
+  
+  window.onload = function() {
+    showCompatibilityAlert();
+  };

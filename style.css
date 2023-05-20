@@ -202,5 +202,13 @@ main{
     background-color: white;
 }
 
+.compatibility-alert {
+    display: none; /* Oculta la alerta por defecto */
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
 
 
